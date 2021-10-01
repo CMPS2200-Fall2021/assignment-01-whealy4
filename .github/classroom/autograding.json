@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "foo",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_foo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run_none",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run_none",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run_hard",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run_hard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "foo2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_foo2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run_recursive_none",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run_recursive_none",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run_recursive",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run_recursive",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run_recursive2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run_recursive2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "longest_run_recursive_hard",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/fybr9v8kxofhcje/test_main.py?dl=0",
+      "run": "pytest test_main.py::test_longest_run_recursive_hard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    }
+  ]
+}
