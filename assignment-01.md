@@ -2,7 +2,7 @@
 
 # CMPS 2200 Assignment 1
 
-**Name:**_________________________
+**Name:**___Liam Healy_________________
 
 
 In this assignment, you will learn more about asymptotic notation, parallelism, functional languages, and algorithmic cost models. As in the recitation, some of your answer will go here and some will go in `main.py`. You are welcome to edit this `assignment-01.md` file directly, or print and fill in by hand. If you do the latter, please scan to a file `assignment-01.pdf` and push to your github repository. 
@@ -13,8 +13,8 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
 .  
-.  
-.  
+.  Yes because if c = 2, k = 1, then we have $2^{n+1} = 2 * 2^{n}$ which is
+.  equal to $2^{n+1} = 2^{n+1}$
 .  
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
@@ -87,7 +87,7 @@ $$
 
   - 2b. What does this function do, in your own words?  
 
-.  
+.  Computes the sum of the first x numbers in the fibonacci sequence.
 .  
 .  
 .  
@@ -117,8 +117,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
   - 3b. What is the Work and Span of this implementation?  
 
 .  
-.  
-.  
+.  Work = Span = O(n)
 .  
 .  
 .  
@@ -131,7 +130,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3d. What is the Work and Span of this recursive algorithm?  
 .  
-.  
+.  Work = Span = O(nlogn) 
 .  
 .  
 .  
@@ -145,8 +144,8 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3e. Assume that we parallelize in a similar way we did with `sum_list_recursive`. That is, each recursive call spawns a new thread. What is the Work and Span of this algorithm?  
 
-.  
-.  
+.  Work = O(nlogn)
+.  Span = O(logn)
 .  
 .  
 .  
